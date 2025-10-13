@@ -44,7 +44,9 @@
 
 1️⃣ Clone the repository  
 ```bash
+
 git clone [https://github.com/your-username/homeli.git](https://github.com/Shamilp-dev/homeli-foodDelivery-Application-MERN-.git)
+
 cd homeli
 
 2️⃣ Install dependencies
@@ -62,8 +64,8 @@ iOS Simulator
 
 Physical device (via Expo Go)
 
-4️⃣ Start the Backend (if separate)
-cd server
+4️⃣ Start the Backend
+cd backend
 npm install
 npm run dev
 
