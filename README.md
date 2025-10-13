@@ -30,13 +30,13 @@
 
 ## 📸 Screenshots  
 
-<img width="222" height="468" alt="image" src="https://github.com/user-attachments/assets/203d66cf-9367-4dd2-acaf-701385a28d6f" />
+<img width="180" height="468" alt="image" src="https://github.com/user-attachments/assets/203d66cf-9367-4dd2-acaf-701385a28d6f" />
 
-<img width="222" height="500" alt="image" src="https://github.com/user-attachments/assets/73a09e8a-2ad0-44e3-917a-b3271d3d3729" />
+<img width="180" height="468" alt="image" src="https://github.com/user-attachments/assets/73a09e8a-2ad0-44e3-917a-b3271d3d3729" />
 
-<img width="222" height="500" alt="image" src="https://github.com/user-attachments/assets/1cf749d9-db28-4801-90f3-72d40925fef7" />
+<img width="180" height="468" alt="image" src="https://github.com/user-attachments/assets/1cf749d9-db28-4801-90f3-72d40925fef7" />
 
-<img width="222" height="500" alt="image" src="https://github.com/user-attachments/assets/1044fbed-937b-4259-b2a7-56b1ff07d8cb" />
+<img width="180" height="468" alt="image" src="https://github.com/user-attachments/assets/1044fbed-937b-4259-b2a7-56b1ff07d8cb" />
 
 
 ⚙️ Installation & Setup  
