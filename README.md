@@ -44,7 +44,7 @@
 
 1️⃣ Clone the repository  
 ```bash
-git clone https://github.com/your-username/homeli.git
+git clone [https://github.com/your-username/homeli.git](https://github.com/Shamilp-dev/homeli-foodDelivery-Application-MERN-.git)
 cd homeli
 
 2️⃣ Install dependencies
