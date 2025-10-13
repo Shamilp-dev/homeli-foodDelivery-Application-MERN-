@@ -2,10 +2,6 @@
 
 > A full-stack **MERN + React Native** food delivery application that brings home-style food closer to users, offering a smooth ordering and tracking experience.
 
-Dashboard Preview
-<img width="222" height="auto" alt="image" src="https://github.com/user-attachments/assets/8df2cbd3-7093-4a9c-898a-b6d2a9b98829" />
-
-
 ## 🚀 Features  
 
 - 🏠 **Browse restaurants** offering homemade and local cuisines  
@@ -34,6 +30,8 @@ Dashboard Preview
 
 ## 📸 Screenshots  
 
+1.<img width="222" height="auto" alt="image" src="https://github.com/user-attachments/assets/8df2cbd3-7093-4a9c-898a-b6d2a9b98829" />
+2.<img width="222" height="auto" alt="image" src="https://github.com/user-attachments/assets/04376fcd-5f17-495d-81e6-08d512dd3d28" />
 
 
 ⚙️ Installation & Setup  
