@@ -1,4 +1,4 @@
-# <img width="90" src="https://github.com/user-attachments/assets/a5bc0cb1-f430-49f3-989b-806878c27003" style="vertical-align: middle; top:10; margin-right: 8px;" /> Homeli – Modern Homely Food Delivery App
+# <img width="90" src="https://github.com/user-attachments/assets/a5bc0cb1-f430-49f3-989b-806878c27003" style="vertical-align: middle; bottom:10; margin-right: 8px;" /> Homeli – Modern Homely Food Delivery App
 
 > A full-stack **MERN + React Native** food delivery application that brings home-style food closer to users, offering a smooth ordering and tracking experience.
 
