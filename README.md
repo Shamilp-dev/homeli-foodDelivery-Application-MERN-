@@ -1,50 +1,105 @@
-# Welcome to your Expo app 👋
+# 🍽️ Homeli – Modern Homely Food Delivery App  
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+> A full-stack **MERN + React Native** food delivery application that brings home-style food closer to users, offering a smooth ordering and tracking experience.
 
-## Get started
+Dashboard Preview
+<img width="622" height="1310" alt="image" src="https://github.com/user-attachments/assets/8df2cbd3-7093-4a9c-898a-b6d2a9b98829" />
 
-1. Install dependencies
 
-   ```bash
-   npm install
-   ```
+## 🚀 Features  
 
-2. Start the app
+- 🏠 **Browse restaurants** offering homemade and local cuisines  
+- 🍲 **Seamless ordering experience** with live order status updates  
+- 🚗 **Real-time delivery tracking** via interactive map  
+- 💳 **Secure payment & order management**  
+- 🔔 **Push notifications** for order updates  
+- 👤 **User authentication & profile management**  
+- ⚙️ **Admin dashboard** for restaurant and order control  
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+## 🧩 Tech Stack  
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+| Category | Technology |
+|-----------|-------------|
+| Frontend (App) | React Native (Expo), TypeScript |
+| Backend | Node.js, Express.js |
+| Database | MongoDB (Mongoose ORM) |
+| Cloud & Storage | AWS S3 |
+| Maps & Location | Google Maps API |
+| Authentication | JWT, AsyncStorage |
+| Others | Axios, Context API, RESTful APIs |
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+## 📸 Screenshots  
 
-When you're ready, run:
 
+
+⚙️ Installation & Setup  
+
+1️⃣ Clone the repository  
 ```bash
-npm run reset-project
-```
+git clone https://github.com/your-username/homeli.git
+cd homeli
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+2️⃣ Install dependencies
+npm install
 
-## Learn more
+3️⃣ Start the Expo app
+npx expo start
 
-To learn more about developing your project with Expo, look at the following resources:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Then, choose to run on:
 
-## Join the community
+Android Emulator
 
-Join our community of developers creating universal apps.
+iOS Simulator
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Physical device (via Expo Go)
+
+4️⃣ Start the Backend (if separate)
+cd server
+npm install
+npm run dev
+
+📁 Folder Structure
+homeli/
+│
+├── app/                # React Native screens & navigation
+├── components/         # UI components
+├── context/            # Auth & notification context
+├── assets/             # Images, icons, and static files
+├── server/             # Express backend (API)
+│   ├── models/         # Mongoose schemas
+│   ├── routes/         # API routes
+│   └── controllers/    # Route logic
+└── package.json
+
+🌍 Environment Variables
+
+Create a .env file in both root and server directories:
+
+MONGODB_URI=your_mongodb_connection_string
+JWT_SECRET=your_secret_key
+AWS_ACCESS_KEY_ID=your_key
+AWS_SECRET_ACCESS_KEY=your_secret
+GOOGLE_MAPS_API_KEY=your_api_key
+
+📹 Demo Video
+
+🎥 Watch the Demo
+
+Optional but highly recommended to add a short demo link.
+
+📬 Contact
+
+👤 Your Name
+💼 LinkedIn
+
+💻 GitHub
+
+✉️ your.email@example.com
+
+⭐ If you like this project, give it a star!
+
