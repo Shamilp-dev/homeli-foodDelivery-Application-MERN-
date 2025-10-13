@@ -1,6 +1,5 @@
-#<h1>
-  <img width="90" height="auto" src="https://github.com/user-attachments/assets/a5bc0cb1-f430-49f3-989b-806878c27003" alt="logo" style="vertical-align: middle; margin-right: 8px;" />
-  Homeli – Modern Homely Food Delivery App
+<h1>
+<img width="90" height="auto" src="https://github.com/user-attachments/assets/a5bc0cb1-f430-49f3-989b-806878c27003" alt="logo" style="vertical-align: middle; margin-right: 8px;" />Homeli – Modern Homely Food Delivery App
 </h1> 
 
 
