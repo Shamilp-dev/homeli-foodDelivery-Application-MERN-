@@ -70,18 +70,127 @@ npm install
 npm run dev
 
 📁 Folder Structure
-homeli/
-│
-├── app/                # React Native screens & navigation
-├── components/         # UI components
-├── context/            # Auth & notification context
-├── assets/             # Images, icons, and static files
-├── server/             # Express backend (API)
-│   ├── models/         # Mongoose schemas
-│   ├── routes/         # API routes
-│   └── controllers/    # Route logic
-└── package.json
 
+📁 homeli_native/
+│
+├── 📱 app/                          # React Native screens & navigation
+│   ├── (tabs)/                      # Tab-based navigation screens
+│   │   ├── index.tsx                # Home/Main screen
+│   │   ├── cart.tsx                 # Shopping cart screen
+│   │   ├── dashboard.tsx            # Dashboard screen
+│   │   ├── profile.tsx              # User profile screen
+│   │   ├── explore.tsx              # Explore/Browse screen
+│   │   └── _layout.tsx              # Tab layout configuration
+│   │
+│   ├── (auth)/                      # Authentication screens
+│   │   └── login.tsx                # Login screen
+│   │
+│   ├── onboard/                     # Onboarding flow
+│   │   └── onboard.tsx              # Onboarding screen
+│   │
+│   ├── _layout.tsx                  # Root layout configuration
+│   ├── login.tsx                    # Main login entry
+│   ├── checkout.tsx                 # Checkout screen
+│   ├── payment-methods.tsx          # Payment methods screen
+│   ├── edit-profile.tsx             # Edit profile screen
+│   ├── notification.tsx             # Notifications screen
+│   ├── orders.tsx                   # Orders history screen
+│   ├── order-status.tsx             # Order status screen
+│   ├── track-order.tsx              # Order tracking screen
+│   ├── favorites.tsx                # Favorites/Wishlist screen
+│   ├── addresses.tsx                # Saved addresses screen
+│   ├── about.tsx                    # About screen
+│   ├── support.tsx                  # Support/Help screen
+│   └── modal.tsx                    # Modal component
+│
+├── 🧩 components/                   # Reusable UI components
+│   ├── ui/                          # UI-specific components
+│   │   ├── icon-symbol.tsx          # Icon symbol component
+│   │   ├── icon-symbol.ios.tsx      # iOS icon variant
+│   │   └── collapsible.tsx          # Collapsible component
+│   │
+│   ├── themed-text.tsx              # Themed text component
+│   ├── themed-view.tsx              # Themed view component
+│   ├── hello-wave.tsx               # Wave animation component
+│   ├── parallax-scroll-view.tsx     # Parallax scroll component
+│   ├── external-link.tsx            # External link component
+│   └── haptic-tab.tsx               # Haptic feedback tab component
+│
+├── 🔧 hooks/                        # Custom React hooks
+│   ├── use-color-scheme.ts          # Color scheme hook
+│   ├── use-color-scheme.web.ts      # Web-specific color scheme hook
+│   └── use-theme-color.ts           # Theme color hook
+│
+├── 🎨 constants/                    # App constants
+│   └── theme.ts                     # Theme configuration
+│
+├── 🖼️ assets/                       # Static assets
+│   ├── loading/                     # Loading animations
+│   │   └── loading.gif              # Loading spinner
+│   │
+│   └── images/                      # Image assets
+│       ├── icon.png                 # App icon
+│       ├── partial-react-logo.png   # React logo
+│       ├── react-logo@2x.png        # React logo @2x
+│       ├── android-icon-background.png
+│       │
+│       ├── dessert/                 # Dessert food images
+│       │   ├── gulabjamun.png
+│       │   ├── pazhampori.png
+│       │   ├── chikkushake.png
+│       │   ├── vanillaicecream.png
+│       │   ├── strawberryshake.png
+│       │   ├── cupcake.png
+│       │   ├── juice.png
+│       │   └── samosa.png
+│       │
+│       ├── lunch/                   # Lunch food images
+│       │   ├── meals.png
+│       │   ├── muttonbiriyani.png
+│       │   └── paneerbuttermasala.png
+│       │
+│       ├── restaurants/             # Restaurant images
+│       │   ├── abc.webp
+│       │   ├── restaurant1.jpg
+│       │   ├── restaurant2.jpg
+│       │   └── restaurant3.jpg
+│       │
+│       └── chef/                    # Chef profile images
+│           ├── chef-venkat.png
+│           ├── chef-priya.png
+│           └── chef-lakshmi.png
+│
+├── 🔙 backend/                      # Express.js backend server
+│   ├── models/                      # Mongoose data models
+│   │   ├── User.js                  # User schema
+│   │   ├── Order.js                 # Order schema
+│   │   ├── Cart.js                  # Cart schema
+│   │   └── FoodItems.js             # Food items schema
+│   │
+│   ├── routes/                      # API route handlers
+│   │   ├── auth.js                  # Authentication routes
+│   │   ├── orders.js                # Order management routes
+│   │   ├── cart.js                  # Cart operations routes
+│   │   └── foodItems.js             # Food items routes
+│   │
+│   ├── server.js                    # Express server entry point
+│   ├── package.json                 # Backend dependencies
+│   └── package-lock.json            # Backend dependency lock
+│
+├── 🛠️ scripts/                      # Build & utility scripts
+│   └── reset-project.js             # Project reset script
+│
+├── 📄 Configuration Files
+│   ├── app.json                     # Expo app configuration
+│   ├── package.json                 # Frontend dependencies
+│   ├── package-lock.json            # Frontend dependency lock
+│   ├── tsconfig.json                # TypeScript configuration
+│   ├── eslint.config.js             # ESLint configuration
+│   ├── webpack.config.js            # Webpack configuration
+│   ├── expo-env.d.ts                # Expo TypeScript definitions
+│   └── README.md                    # Project documentation
+│
+└── 📦 node_modules/                 # Dependencies (excluded)
 🌍 Environment Variables
 
 Create a .env file in both root and server directories:
