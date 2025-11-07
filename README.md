@@ -202,14 +202,15 @@ AWS_SECRET_ACCESS_KEY=your_secret
 GOOGLE_MAPS_API_KEY=your_api_key
 
 📹 Demo Video
-:https://www.linkedin.com/posts/shamilpziyad_reactnative-mernstack-fullstackdevelopment-activity-7383238080230690816-zkp6?utm_source=share&utm_medium=member_desktop&rcm=ACoAADr9NDIBluxq0jXiAl_4cgRxORaBpQSGQEo
+<a href="https://www.linkedin.com/posts/shamilpziyad_reactnative-mernstack-fullstackdevelopment-activity-7383238080230690816-zkp6?utm_source=share&utm_medium=member_desktop&rcm=ACoAADr9NDIBluxq0jXiAl_4cgRxORaBpQSGQEo">link</a>
+:
 🎥 Watch the Demo
 
 
 📬 Contact
 
 👤 Shamil P
-💼 LinkedIn : https://www.linkedin.com/posts/shamilpziyad/
+💼 LinkedIn : <a href="https://www.linkedin.com/posts/shamilpziyad/">https://www.linkedin.com/posts/shamilpziyad/</a>
 ✉️ shamilpofficial@gmail.com
 
 ⭐ If you like this project, give it a star!
